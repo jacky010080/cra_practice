@@ -1,0 +1,11 @@
+// 新增變數
+$body-color: rgb(1, 1, 49);
+
+.App-header {
+  background-color: $body-color;
+}
+
+@import "bootstrap/scss/functions";
+@import "./variables";
+
+@import "bootstrap/scss/bootstrap";
